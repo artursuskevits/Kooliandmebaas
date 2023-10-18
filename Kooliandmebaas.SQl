@@ -56,3 +56,14 @@ KoristajaId int,
 FOREIGN KEY (KoristajaId) REFERENCES Koristaja(Id)
 );
 Select * from Õpperoom;
+
+Create Table Õpilane (
+Id int PRIMARY KEY identity(1,1),
+Nimi varchar(20),
+Perenimi varchar(20),
+Vanus DateTime,
+KlassId int,
+FOREIGN KEY (KlassId) REFERENCES Klass(Id)
+);
+
+Select * from Õpilane
