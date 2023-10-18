@@ -142,3 +142,24 @@ Insert Into Õpejuhataja(Nimi,Perenimi,Osakond)
 VAlues('Oleg','Garanža','Gümnaasium');
 
 Select * from Õpejuhataja
+
+Insert Into Õpik(Nimi,ÕppeaineID)
+Values('Mina õpin inglise keelt!',1);
+Insert Into Õpik(Nimi,ÕppeaineID)
+Values('With Flying Colours English',1);
+Insert Into Õpik(Nimi,ÕppeaineID)
+Values('Keel- see on tee',7);
+Insert Into Õpik(Nimi,ÕppeaineID)
+Values('Koos on LÕBUS',2);
+Insert Into Õpik(Nimi,ÕppeaineID)
+Values('Nomaadimaa',9);
+Insert Into Õpik(Nimi,ÕppeaineID)
+Values('Muusikamaa.',2);
+Insert Into Õpik(Nimi,ÕppeaineID)
+Values('Vene Sõna',7);
+Insert Into Õpik(Nimi,ÕppeaineID)
+Values('Lodusõpetus!',5);
+Insert Into Õpik(Nimi,ÕppeaineID)
+Values('Koolibioloogia sõnastik',3);
+
+Select * from Õpik;
