@@ -78,3 +78,20 @@ FOREIGN KEY (ÕpikId) REFERENCES Õpik(Id),
 ); 
 
 Select * from Õpikut_laenutus;
+
+Create Table Välja_pass(
+Id int PRIMARY KEY identity(1,1),
+Väljaaeg DateTime,
+ÕpilaneId Int,
+FOREIGN KEY (ÕpilaneId) REFERENCES Õpilane(Id),
+);
+
+Select * from Välja_pass;
+
+Create Table Sisse_pass(
+Id int PRIMARY KEY identity(1,1),
+Sisseaeg DateTime,
+ÕpilaneId Int,
+FOREIGN KEY (ÕpilaneId) REFERENCES Õpilane(Id));
+
+Select * from Sisse_pass;
