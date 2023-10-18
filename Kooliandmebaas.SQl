@@ -18,3 +18,12 @@ Perenimi varchar(20),
 Osakond varchar(25));
 
 Select * from Õpejuhataja
+
+Create Table Õpik(
+Id int PRIMARY KEY identity(1,1),
+Nimi varchar(30),
+ÕppeaineID int,
+FOREIGN KEY (ÕppeaineID) REFERENCES Õppeaine(Id)
+);
+
+Select * from Õpik;
