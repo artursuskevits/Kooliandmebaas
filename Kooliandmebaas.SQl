@@ -99,3 +99,35 @@ FOREIGN KEY (ÕpilaneId) REFERENCES Õpilane(Id));
 Select * from Sisse_pass;
 
 --Insert Query:
+
+Insert Into Koristaja(Nimi,Perenimi)
+Values ('Irina','Pavlovna');
+Insert Into Koristaja(Nimi,Perenimi)
+Values ('Olga','Vladimirovna');
+Insert Into Koristaja(Nimi,Perenimi)
+Values ('Anna','Irinovna');
+Insert Into Koristaja(Nimi,Perenimi)
+Values ('Andrey','Mlkov');
+Insert Into Koristaja(Nimi,Perenimi)
+Values ('Valentina','Iranovna');
+
+Select * from Koristaja
+
+Insert Into Õppeaine(Nimi)
+Values ('Inglise keeles');
+Insert Into Õppeaine(Nimi)
+Values ('Muusika');
+Insert Into Õppeaine(Nimi)
+Values ('Bioloogia');
+Insert Into Õppeaine(Nimi)
+Values ('Keemia');
+Insert Into Õppeaine(Nimi)
+Values ('Füüsika');
+Insert Into Õppeaine(Nimi)
+Values ('Eesti Keel');
+Insert Into Õppeaine(Nimi)
+Values ('Vene Keel');
+Insert Into Õppeaine(Nimi)
+Values ('Matemaatika');
+
+Select * from Õppeaine
