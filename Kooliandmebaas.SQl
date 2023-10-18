@@ -129,6 +129,8 @@ Insert Into Õppeaine(Nimi)
 Values ('Vene Keel');
 Insert Into Õppeaine(Nimi)
 Values ('Matemaatika');
+Insert Into Õppeaine(Nimi)
+Values ('Ajalugu');
 
 Select * from Õppeaine
 
