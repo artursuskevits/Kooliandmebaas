@@ -163,3 +163,24 @@ Insert Into Õpik(Nimi,ÕppeaineID)
 Values('Koolibioloogia sõnastik',3);
 
 Select * from Õpik;
+
+Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
+Values('Irina','Merkulova',1);
+Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
+Values('Marija','Oleinik',1);
+Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
+Values('Anna','Sohromova',1);
+Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
+Values('Galina','Ivanova',2);
+Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
+Values('Andrey','Semenov',2);
+Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
+Values('Ignat','Vadimov',2);
+Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
+Values('Jhon','Travolta',3);
+Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
+Values('Gleb','Golubin',3);
+Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
+Values('Darja','Samarova',3);
+
+Select * from Õpejuhataja
