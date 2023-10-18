@@ -271,3 +271,28 @@ Values('2023-06-07',9,4);
 
 
 Select * from Õpikut_laenutus;
+
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',1)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',2)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',3)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',4)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',5)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',6)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',7)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',8)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',9)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',10)
+INsert Into Sisse_pass(Sisseaeg,ÕpilaneId)
+VAlues('2023-10-15',11)
+
+Select * from Sisse_pass
