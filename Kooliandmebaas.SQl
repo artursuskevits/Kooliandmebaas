@@ -1,3 +1,5 @@
+--Create Table Query:
+
 Create Table Koristaja(
 Id int PRIMARY KEY identity(1,1),
 Nimi varchar(20),
@@ -95,3 +97,5 @@ Sisseaeg DateTime,
 FOREIGN KEY (ÕpilaneId) REFERENCES Õpilane(Id));
 
 Select * from Sisse_pass;
+
+--Insert Query:
