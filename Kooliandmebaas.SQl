@@ -131,3 +131,12 @@ Insert Into Õppeaine(Nimi)
 Values ('Matemaatika');
 
 Select * from Õppeaine
+
+Insert Into Õpejuhataja(Nimi,Perenimi,Osakond)
+VAlues('Irina','Maksimova','Algklassid');
+Insert Into Õpejuhataja(Nimi,Perenimi,Osakond)
+VAlues('Marje','Burmeister','Põhikool');
+Insert Into Õpejuhataja(Nimi,Perenimi,Osakond)
+VAlues('Oleg','Garanža','Gümnaasium');
+
+Select * from Õpejuhataja
