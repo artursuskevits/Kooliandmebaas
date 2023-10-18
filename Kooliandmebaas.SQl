@@ -27,3 +27,13 @@ FOREIGN KEY (ÕppeaineID) REFERENCES Õppeaine(Id)
 );
 
 Select * from Õpik;
+
+Create TAble Õpetaja(
+Id int PRIMARY KEY identity(1,1),
+Nimi varchar(20),
+Perenimi varchar(20),
+ÕpejuhatajaId int,
+FOREIGN KEY (ÕpejuhatajaId) REFERENCES Õpejuhataja(Id)
+);
+
+Select * from Õpetaja
