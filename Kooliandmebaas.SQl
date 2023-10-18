@@ -1,6 +1,5 @@
-
 Create Table Koristaja(
-Id int,
+Id int PRIMARY KEY identity(1,1),
 Nimi varchar(20),
 Perenimi varchar(20));
 
