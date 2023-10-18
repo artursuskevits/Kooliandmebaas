@@ -185,6 +185,44 @@ Values('Darja','Samarova',3);
 
 Select * from Õpejuhataja
 
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Artur','Šuškevitš','2005-12-12',9);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Vlad','Ivanov','2005-10-12',8);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Marina','Muppovna','2006-04-12',6);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Ilnur','Nevrdie','2012-10-04',4);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Ashraf','Bambamovich','2015-02-02',2);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Ashabat','Bonbovich','2005-12-12',1);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Irina','Krutaja','2005-12-12',3);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Elizaveta','Dikovich','2005-12-12',5);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Anastasija','Prijmak','2005-12-12',4);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Dmitriy','Kemppi','2018-02-12',1);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Tom','Miskevich','2005-06-30',9);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Ignat','Boghatyrov','2005-04-04',7);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Maksim','Buivol','2013-01-02',6);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Olga','Denisenko','2014-7-22',5);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Laura','Karpova','2016-12-12',3);
+Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
+Values('Semen','Olegov','2005-11-16',8);
+
+
+
+Select * from Õpilane
+
+
 Insert INto Klass(Nimi,ÕpetajaId)
 Values('1A',1);
 Insert INto Klass(Nimi,ÕpetajaId)
