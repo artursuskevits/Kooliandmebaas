@@ -67,3 +67,14 @@ FOREIGN KEY (KlassId) REFERENCES Klass(Id)
 );
 
 Select * from Õpilane
+
+Create Table Õpikut_laenutus(
+Id int PRIMARY KEY identity(1,1),
+Kuupäev DateTime,
+ÕpilaneId Int,
+ÕpikId Int,
+FOREIGN KEY (ÕpilaneId) REFERENCES Õpilane(Id),
+FOREIGN KEY (ÕpikId) REFERENCES Õpik(Id),
+); 
+
+Select * from Õpikut_laenutus;
