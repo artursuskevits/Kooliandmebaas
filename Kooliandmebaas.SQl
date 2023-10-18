@@ -184,3 +184,24 @@ Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
 Values('Darja','Samarova',3);
 
 Select * from Õpejuhataja
+
+Insert INto Klass(Nimi,ÕpetajaId)
+Values('1A',1);
+Insert INto Klass(Nimi,ÕpetajaId)
+Values('2A',2);
+Insert INto Klass(Nimi,ÕpetajaId)
+Values('3A',3);
+Insert INto Klass(Nimi,ÕpetajaId)
+Values('5A',4);
+Insert INto Klass(Nimi,ÕpetajaId)
+Values('6A',5);
+Insert INto Klass(Nimi,ÕpetajaId)
+Values('7A',6);
+Insert INto Klass(Nimi,ÕpetajaId)
+Values('9A',7);
+Insert INto Klass(Nimi,ÕpetajaId)
+Values('9B',8);
+Insert INto Klass(Nimi,ÕpetajaId)
+Values('9C',9);
+
+Select * from Klass;
