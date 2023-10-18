@@ -46,3 +46,13 @@ FOREIGN KEY (ÕpetajaId) REFERENCES Õpetaja(Id)
 ); 
 
 Select * from Klass;
+
+Create TAble Õpperoom(
+Id int PRIMARY KEY identity(1,1),
+Number varchar(3),
+ÕpetajaId int,
+FOREIGN KEY (ÕpetajaId) REFERENCES Õpetaja(Id),
+KoristajaId int,
+FOREIGN KEY (KoristajaId) REFERENCES Koristaja(Id)
+);
+Select * from Õpperoom;
