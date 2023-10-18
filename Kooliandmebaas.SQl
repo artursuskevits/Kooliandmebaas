@@ -243,3 +243,31 @@ Insert INto Klass(Nimi,ÕpetajaId)
 Values('9C',9);
 
 Select * from Klass;
+
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-06',1,15);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-06',2,14);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-06',3,13);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-07',4,12);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-05',5,11);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-04',6,10);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-03',7,9);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-08',8,8);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-07',9,7);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-03',7,6);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-08',8,5);
+Insert Into Õpikut_laenutus (Kuupäev,ÕpikId,ÕpilaneId)
+Values('2023-06-07',9,4);
+
+
+Select * from Õpikut_laenutus;
