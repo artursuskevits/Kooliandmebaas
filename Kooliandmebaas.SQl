@@ -183,7 +183,7 @@ Values('Gleb','Golubin',3);
 Insert Into Õpetaja(Nimi,Perenimi,ÕpejuhatajaId)
 Values('Darja','Samarova',3);
 
-Select * from Õpejuhataja
+Select * from Õpetaja
 
 Insert Into Õpilane(Nimi,Perenimi,Vanus,KlassId)
 Values('Artur','Šuškevitš','2005-12-12',9);
@@ -327,3 +327,17 @@ INsert Into Välja_pass(Väljaaeg,ÕpilaneId)
 VAlues('2023-10-15',14)
 
 Select * from Välja_pass
+
+Insert Into Õpperoom(Number,ÕpetajaId,KoristajaId)
+
+Values('123',1,1)
+Insert Into Õpperoom(Number,ÕpetajaId,KoristajaId)
+Values('223',7,1)
+Insert Into Õpperoom(Number,ÕpetajaId,KoristajaId)
+Values('323',9,2)
+Insert Into Õpperoom(Number,ÕpetajaId,KoristajaId)
+Values('146',4,3)
+Insert Into Õpperoom(Number,ÕpetajaId,KoristajaId)
+Values('245',2,2)
+Select* from Õpperoom;
+
